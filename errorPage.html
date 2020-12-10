@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> The Daily Post</title>
+	<link rel="stylesheet" type="text/css" href="error-style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="nav">
+		<div class="logo">
+			<a href="mainPage.php">
+			The Daily Post
+			</a>
+		</div>
+	</nav>
+
+	<div class="categories">
+	<div class="category-item"><a href="./sectionPage.php?section=technology">Technology</a></div>
+	<div class="category-item"><a href="./sectionPage.php?section=sports">Sports</a></div>
+	<div class="category-item"><a href="./sectionPage.php?section=entertainment">Entertainment</a></div>
+	<div class="category-item"><a href="./sectionPage.php?section=health">Health</a></div>
+	<div class="category-item"><a href="./sectionPage.php?section=business">Business</a></div>
+	<div class="category-item">
+		<i class="fa fa-search"></i>
+		<form action="searchPage.php" method="post">
+		<input type="text" name="search-field" class="search-bar" placeholder="Search...">
+		</form>
+	</div>
+	</div>
+	<br>
+	<center>
+	<div class="error">
+		<img src="error.jpg" class="error-image">
+		<br>
+		Sorry, we were not able to find the pages. Please search for other keywords.
+		<br>
+		Try for words like "microsoft", "cars" or "food"		
+	</div>	
+	</center>
+	
+</body>
+</html>
